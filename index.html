@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>07 - Card Group</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a href="./index.html" class="navbar__logo">
+          <img src="./images/logo-ac.svg" alt="AC Logo" class="navbar__icon" />
+        </a>
+
+        <nav class="navbar__nav">
+          <ul class="navbar__list">
+            <li><a class="navbar__link" href="#about">About</a></li>
+            <li><a class="navbar__link" href="./blog-post.html">Blog</a></li>
+            <li><a class="navbar__link" href="#download">Download</a></li>
+            <li><a class="navbar__link" href="#sign">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner__main" id="download">
+      <div class="container">
+        <div class="banner__content">
+          <h2 class="banner__title">Welcome to Adventure Co!</h2>
+          <p class="banner__text">
+            An app built for adventurers seeking fame, fortune, and a well
+            organized gameplay experience!
+          </p>
+          <a href="#" class="btn">Download the app!</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="prompts-section" id="sign">
+      <div class="container">
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="./images/card-character.svg"
+              alt="Dog 1"
+              class="card__image"
+            />
+            <h2 class="card__title">Create a character!</h2>
+            <p class="card__content">
+              Get started with your very first character.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <div class="card">
+            <img
+              src="./images/card-party.svg"
+              alt="Dog 1"
+              class="card__image"
+            />
+            <h2 class="card__title">Form a party!</h2>
+            <p class="card__content">Connect with friends and team up.</p>
+            <button class="btn">Learn More</button>
+          </div>
+          <div class="card">
+            <img
+              src="./images/card-items.svg"
+              alt="Dog 1"
+              class="card__image"
+            />
+            <h2 class="card__title">Find an item!</h2>
+            <p class="card__content">
+              Add fantastic items too boost your character.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-section__image">
+          <img src="./images/about.jpg" alt="A nice dock on a lake" />
+        </div>
+        <div class="about-section__content">
+          <h2 class="about-section__title">About Adventure Co.</h2>
+          <p class="about-section__text">
+            Adventure Co. is a cooperative storytelling companion for D&D that
+            uses your imagination and invites you to adventure, battle,
+            discover, and complete epic quests with your friends through an
+            immersive RPG experience. Your first adventure is only a dice roll
+            away!
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent-section" id="blog">
+      <div class="container">
+        <h2 class="recent-section__title">Recent Blog Posts</h2>
+        <div class="card-group">
+          <div class="card">
+            <h2 class="card__title">
+              <a href="./blog-post.html"
+                >One-Shot Adventures: What They Are, Why We Love Them, and
+                Recommendations</a
+              >
+            </h2>
+            <p class="card__content">By Mike Bernier</p>
+          </div>
+          <div class="card">
+            <h2 class="card__title">
+              5 Tips for Running the Death House One-Shot From Curse of Strahd
+            </h2>
+            <p class="card__content">by Jeremy Blum</p>
+          </div>
+          <div class="card">
+            <h2 class="card__title">
+              How to Mashup D&D Sourcebooks for Versatile Storytelling
+            </h2>
+            <p class="card__content">by Riley Silverman</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="footer__logo">
+          <img src="./images/logo-ac.svg" alt="AC Logo" class="footer__icon" />
+        </a>
+
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li><a class="footer__link" href="#about">About</a></li>
+            <li><a class="footer__link" href="./blog-post.html">Blog</a></li>
+            <li><a class="footer__link" href="#download">Download</a></li>
+            <li><a class="footer__link" href="#sign">Sign Up</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__legal">
+          <small class="footer__copyright">
+            &copy; 2022 Adventure Co-Operative
+          </small>
+          <small class="footer__privacy"> Privacy Policy </small>
+          <small class="footer__terms"> Terms of Service </small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
