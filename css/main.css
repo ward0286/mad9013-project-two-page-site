@@ -10,6 +10,12 @@ html {
   line-height: 1.5;
   font-family: Agbalumo, sans-serif;
 
+  /* ---------- prof comment ----------
+  
+  set variables on the :root selector to 
+  ensure they are globally available
+  
+  ---------- end prof comment ---------- */
   --purple: #30011e;
   --tea: #d7fcd4;
   --celadon: #b6cca1;
@@ -81,6 +87,11 @@ ol[role="list"] {
 a {
   text-decoration-skip-ink: auto;
   color: #36bf7f;
+  /* ---------- prof comment ----------
+  
+  these colours should be updated
+  
+  ---------- end prof comment ---------- */
 }
 
 a:hover,
@@ -163,6 +174,11 @@ select {
   color: white;
 }
 
+/* ---------- prof comment ----------
+
+these styles should be on `.navbar`
+
+---------- end prof comment ---------- */
 header {
   background-color: var(--purple);
   color: white;

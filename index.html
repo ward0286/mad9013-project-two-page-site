@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- prof comment
+      title should be descriptive of the sites content.
+      For example:
+      <title>Adventure Co-op.</title>
+    -->
     <title>Two Page Site - Index</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,6 +20,9 @@
   <body>
     <header class="navbar">
       <div class="container">
+        <!-- prof comment
+          missing h1
+        -->
         <a href="./index.html" class="navbar__logo">
           <img src="./images/logo-ac.svg" alt="AC Logo" class="navbar__icon" />
         </a>
@@ -29,7 +37,9 @@
         </nav>
       </div>
     </header>
-
+<!-- prof comment
+  missing <main>
+-->
     <section class="banner__main" id="download">
       <div class="container">
         <div class="banner__content">
@@ -56,6 +66,11 @@
             <p class="card__content">
               Get started with your very first character.
             </p>
+            <!-- prof comment
+              remove <button> not in content.
+              Also: this likely would be a link,
+              so would need to be <a class="btn" href="#">
+            -->
             <button class="btn">Learn More</button>
           </div>
           <div class="card">
@@ -66,6 +81,11 @@
             />
             <h2 class="card__title">Form a party!</h2>
             <p class="card__content">Connect with friends and team up.</p>
+            <!-- prof comment
+              remove <button> not in content.
+              Also: this likely would be a link,
+              so would need to be <a class="btn" href="#">
+            -->
             <button class="btn">Learn More</button>
           </div>
           <div class="card">
@@ -78,6 +98,11 @@
             <p class="card__content">
               Add fantastic items too boost your character.
             </p>
+            <!-- prof comment
+              remove <button> not in content.
+              Also: this likely would be a link,
+              so would need to be <a class="btn" href="#">
+            -->
             <button class="btn">Learn More</button>
           </div>
         </div>
@@ -107,8 +132,17 @@
       <div class="container">
         <h2 class="recent-section__title">Recent Blog Posts</h2>
         <div class="card-group">
+          <!-- prof comment
+            card should be <a>
+          -->
           <div class="card">
+            <!-- prof comment
+              should be h3
+            -->
             <h2 class="card__title">
+              <!-- prof comment
+                remove inner <a>
+              -->
               <a href="./blog-post.html"
                 >One-Shot Adventures: What They Are, Why We Love Them, and
                 Recommendations</a
@@ -116,13 +150,25 @@
             </h2>
             <p class="card__content">By Mike Bernier</p>
           </div>
+          <!-- prof comment
+            card should be <a>
+          -->
           <div class="card">
+            <!-- prof comment
+              should be h3
+            -->
             <h2 class="card__title">
               5 Tips for Running the Death House One-Shot From Curse of Strahd
             </h2>
             <p class="card__content">by Jeremy Blum</p>
           </div>
+          <!-- prof comment
+            card should be <a>
+          -->
           <div class="card">
+            <!-- prof comment
+              should be h3
+            -->
             <h2 class="card__title">
               How to Mashup D&D Sourcebooks for Versatile Storytelling
             </h2>
@@ -131,7 +177,9 @@
         </div>
       </div>
     </section>
-
+<!-- prof comment
+  close </main>
+-->
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="footer__logo">
